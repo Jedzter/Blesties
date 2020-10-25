@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta charset ="utf-8">
-<title>Contact Page</title>
-<style>
-	body {
-	 display: block;
-	 margin: 8px;
-}
-</style>
+<title>Aniflex</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+<link href="css/homepage.css" rel="stylesheet" type="text/css">
 <link href="css/contact.css" rel="stylesheet" type="text/css">
 </head>
+<style>
+  body {
+   display: block;
+   margin: 8px;
+   
+}
+</style>
 
 <body>
 
     <nav>
-        <h4>Insert Business Here</h4>
+        <h2><a href="homepage.html">Aniflex</a></h2>
     
         <label for="toggle">☰</label>
         <input type ="checkbox" id="toggle">
-            <div id = "sidelinks">
-                <a id = "current" href= "homepage.html">Home</a>
-                <a href="services.html">Services</a>
+        <div id = "sidelinks">
+            <a id = "current" href= "homepage.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="faqpage.html">FAQ</a>
                 <a href="contact.html">Contact</a>
-            
-            </div>
+        
+        </div>
     </nav>
 
+    <div id= "cover">
+        <div id = "slogan" style="text-shadow: 3px 3px #46868f">
+            <h1>Contact Us</h1>
+    
+        </div>
+    </div>
+
+
+
+    <div class="section">
+        
+        <P>Keep in contact with us for any questions, new merch, and new anime releases! </P>
+        <div class="contact-border"></div>
+        <form class="contact-form" action="contact.html" method="post">
+          <input type="text" class="contact-text" placeholder="Your Name: ">
+          <input type="text" class="contact-text" placeholder="Email: ">
+          <input type="text" class="contact-text" placeholder="Phone Number: ">
+          <textarea class="contact-text" placeholder="Message: "></textarea>
+          <input type="submit" class="contact-btn" value="Send">
+        </form>
+      </div>
+      <div class="Naruto">
+          <img src="https://gallery.yopriceville.com/downloadfullsize/send/6366">
+          <img src="https://www.dhresource.com/f2/albu/g10/M00/58/DD/rBVaVl4LBd-ACcSpAAYhZVhR2bw880.jpg">
+          <img src="https://i.pinimg.com/originals/46/f4/4f/46f44fb2d79c70332af915156a140546.png">
+          <img src="https://static.wikia.nocookie.net/bokunoheroacademia/images/f/f7/Izuku_Midoriya_Hero_Costume_Action_Pose.png/revision/latest?cb=20190909030259">
+
+        </div>
+
+   
+
+
+    <footer>
+            <div id="details">
+                <div id="enroll">
+                    <h1>Anime</h1>
+                    <div id="line"></div>
+                    <p>Get notifications on updates!</p>
+                    <form action id="formformat">
+                        <input type="text" id="text" placeholder="Email address">
+                        <input type="submit" id="submitbutton" value="Submit">
+                    </form>
+                </div>
+            </div>
+    </footer>
 
 
 </body>

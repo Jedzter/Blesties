@@ -1,1 +1,36 @@
- 
+@charset "utf-8";
+
+*{
+	font-family: 'Slackey', cursive;
+}
+
+nav {
+	position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+	background-color: #34b7eb;
+	min-height: 4vh;
+    z-index: 999;
+
+}
+
+#sidelinks a {
+	clear: right;
+	padding-left: 40px;
+	font-size: 18px;
+}
+
+div {
+	display: block;
+}
+
+#toggle {
+    display: none;
+}
+
+h4 {
+	padding-right: 500px;
+}

@@ -136,9 +136,7 @@ footer {
 }
 
 #submitbutton {
-
-
-	cursor: pointer;
+	 cursor: pointer;
 	 padding: 15px 40px;
 	 font-size: 16px;
 	 color: #449acc;
