@@ -57,6 +57,14 @@ label {
 	float: right;
 }
 
+.article{
+    margin: 30px;
+}
+
+.article .apho{
+    max-height: 300px;
+}
+
 
 #details {
 	max-width: 1200px;
