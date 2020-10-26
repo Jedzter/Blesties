@@ -86,13 +86,17 @@ h4 {
 
 table, th {
     border-radius: 25px;
-    padding: 10px 20px;
-    background:  #8fdaf8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 9px;
+    background: #34b7eb ;
     max-width: 300px;
 }
 
+
 th a {
-    color: #34b7eb;
+    color: rgb(225, 246, 255);
 }
 
 th img {
