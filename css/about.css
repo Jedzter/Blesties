@@ -4,6 +4,10 @@
 	font-family: 'Slackey', cursive;
 }
 
+body {
+	margin: 0;
+}
+
 nav {
 	position: sticky;
     top: 0px;
@@ -12,7 +16,7 @@ nav {
     align-items: center;
     width: 100%;
 	background-color: #34b7eb;
-	min-height: 4vh;
+	min-height: 50px;
 	z-index: 999;
 }
 #sidelinks a {
@@ -23,10 +27,21 @@ nav {
 
 .about{
 	text-align: center;
+	margin-bottom: 30px;
+}
+.about h1, h2{
+	color:#31788f;
 }
 .about .dacontent{
 	display: inline-flex;
-	padding: 20px;
+	margin: 0px 150px;
+}
+.about h4, p{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.about h4 {
+	color:  #77a8c9;
 }
 
 
@@ -59,10 +74,6 @@ label {
 	line-height: 70px;
 	display: none;
 	float: right;
-}
-
-#toggle {
-	display: none;
 }
 
 

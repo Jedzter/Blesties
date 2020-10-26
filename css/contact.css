@@ -260,8 +260,7 @@ textarea.contact-text{
 
 #submitbutton {
 
-
-cursor: pointer;
+	cursor: pointer;
 	padding: 15px 40px;
 	font-size: 16px;
 	color: #449acc;
@@ -289,6 +288,7 @@ color: #449acc;
 	/* display: inline-block;  */
     
 }
+
 .Luffy img{
     
 	justify-content: center;
@@ -318,6 +318,7 @@ color: #449acc;
 
     
 }
+
 .float-child .contact-form{
     width: 40%;
     float: left;
