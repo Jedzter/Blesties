@@ -14,8 +14,8 @@ nav {
     align-items: center;
     width: 100%;
 	background-color: #34b7eb;
-    min-height: 4vh;
-    height: 60px;
+    height: 4vh;
+
 	z-index: 999;
 }
 
