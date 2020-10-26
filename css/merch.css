@@ -31,6 +31,7 @@ nav {
 #slogan {
 	color: rgb(240, 234, 234);
 }
+
 a {
 	text-decoration: none;
 	color: rgb(87, 77, 77);
@@ -250,3 +251,13 @@ footer {
   #faq {
       color: rgb(32, 229, 255);
   }
+  
+img {
+    width:  300px;
+    height: 300px;
+}
+
+#merchitems {
+  text-align: center;
+ 
+}
