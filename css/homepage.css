@@ -14,9 +14,10 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+	width: 100%;
+	height: 100%;
 	background-color: #34b7eb;
-	min-height: 4vh;
+	min-height: 60px;
 	z-index: 999;
 }
 
@@ -198,103 +199,5 @@ footer {
 #merch a {
 	color: #34b7eb;
 	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	height:450px;
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
+	height:450px;
 }
