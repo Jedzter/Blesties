@@ -275,7 +275,10 @@ img {
 }
 
 .topcaption {
-  margin-top: 400px;
+  position: relative;
+  top: -5px;
+  left: 50px;
+  
 }
 
 .caption {
@@ -295,6 +298,12 @@ img {
   
 }
 
-.premhoodie {
-  padding-top: 200px;
+/* .premhoodie img {
+  position:relative;
+  top: 0px;
+} */
+
+#haha {
+  position:relative;
+  top: -5px;
 }
