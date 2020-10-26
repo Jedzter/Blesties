@@ -58,11 +58,18 @@ label {
 }
 
 .article{
-    margin: 30px;
+	margin: 30px;
 }
 
 .article .apho{
-    max-height: 300px;
+	max-height: 230px;
+	float: left;
+    padding-right: 20px;
+    
+}
+.article mh
+.article a{
+	color: #aec1cf;
 }
 
 
@@ -74,12 +81,13 @@ label {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap-reverse;
+
 }
 
 
 footer {
-	background-color: #34b7eb;
-	padding: 50px 0;
+    background-color: #34b7eb;
+    padding-bottom: 40px;
 	  }
 
 

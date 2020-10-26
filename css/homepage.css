@@ -14,9 +14,10 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+	width: 100%;
+	height: 100%;
 	background-color: #34b7eb;
-	min-height: 100P;
+	min-height: 60px;
 	z-index: 999;
 }
 
@@ -103,7 +104,6 @@ footer {
 
 }
 #news a{
-	text-decoration: none;
 	color: #34b7eb;
 }
 a:hover{
@@ -207,75 +207,3 @@ a:hover{
 	
 }	
 
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	
-
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	
-
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	
-
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}	
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-	
-}
-
-.vertical { 
-	border-left: 5px solid black; 
-	height: 200px; 
-} 
-
-#merch a {
-	color: #34b7eb;
-}
