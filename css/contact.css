@@ -14,8 +14,8 @@ nav {
     align-items: center;
     width: 100%;
 	background-color: #34b7eb;
-    min-height: 4vh;
-    height: 60px;
+    height: 4vh;
+
 	z-index: 999;
 }
 
@@ -200,12 +200,11 @@ footer {
 .contact-form {
     /* max-width: 600px;
     /* margin: auto; */
-    padding: 0px 100px 30px 30px; */
-	overflow: hidden;
+    padding: 0px 100px 300px 30px; 
+	  overflow: hidden;
     background-color: #97daf5;
     float: left;
     width: 600px;
-x
 	
   }
   
@@ -302,7 +301,7 @@ color: #449acc;
 
 .float-container {
     border: 3px solid #fff;
-    padding-bottom: 600px;
+    padding-bottom: 700px;
 }
 
 .float-child .Naruto {
@@ -312,9 +311,9 @@ color: #449acc;
     
 }  
 .float-child .Luffy {
-    width: 23%;
+    width: 25%;
     float: left;
-    padding: 40px 0px 5px 0px;
+    padding: 40px 10px 5px 0px;
 
     
 }
