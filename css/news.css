@@ -57,11 +57,11 @@ label {
 	float: right;
 }
 
-.news{
+.article{
     margin: 30px;
 }
 
-.news .apho{
+.article .apho{
     max-height: 300px;
 }
 
