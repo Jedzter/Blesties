@@ -103,6 +103,10 @@ footer {
 	width: 33.33%;
 
 }
+#news a{
+	text-decoration: none;
+	color: #34b7eb;
+}
 
 #shows {
 	float: left;
