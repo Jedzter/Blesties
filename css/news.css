@@ -57,6 +57,14 @@ label {
 	float: right;
 }
 
+.news{
+    margin: 30px;
+}
+
+.news .apho{
+    max-height: 300px;
+}
+
 
 #details {
 	max-width: 1200px;
