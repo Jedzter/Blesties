@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset ="utf-8">
+<title>Aniflex</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+<link href="css/homepage.css" rel="stylesheet" type="text/css">
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+  body {
+   display: block;
+   margin: none;
+   
+}
+.errMsg {color: #D20E11; border: solid 1px #d20e11; display:none;  padding: 1px 15px; width: 100%; height: 40px;	}
+</style>
+
+<body>
+    <nav>
+        <h2><a href="homepage.html">Aniflex</a></h2>
+    
+        <label for="toggle">☰</label>
+        <input type ="checkbox" id="toggle">
+        <div id = "sidelinks">
+            <a id = "current" href= "homepage.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="faqpage.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+        
+        </div>
+    </nav>
+
+    <script language="javascript">
+
+        function validate()
+        {
+            err=false;
+            document.getElementById("errPhone").style.display = "none";
+            document.getElementById("errName").style.display = "none";
+            document.getElementById("errEmail").style.display = "none";
+            
+            with (document.data)
+            {
+                if (phone.value=="")
+                {
+                    document.getElementById("errPhone").style.display = "inline-block";
+                    phone.focus();
+                    err=true;
+                }
+                if (name.value=="")
+                {
+                    document.getElementById("errName").style.display = "inline-block";
+                    name.focus();
+                    err=true;
+                }
+                if (email.value=="")
+                {
+                    document.getElementById("errEmail").style.display = "inline-block";
+                    name.focus();
+                    err=true;
+                }
+
+                if(!err) {
+                    alert("Thank You! We will keep in contact with you!")
+
+            }
+            }
+            
+            return !err;
+
+            
+        }
+    
+        
+    </script>
+
+    <div id= "cover">
+        <div id = "slogan" style="text-shadow: 3px 3px #46868f">
+            <h1>Crunchyroll? never. Aniflex!</h2>
+    
+        </div>
+    </div>
+
+
+    <div class="section">
+        <P>Keep in contact with us for any questions, new merch, and new anime releases! </P>
+        <div class="contact-border"></div>
+        
+        <div class="float-container">
+            <div class="float-child">
+                <img class="Luffy" src="https://www.dhresource.com/f2/albu/g10/M00/58/DD/rBVaVl4LBd-ACcSpAAYhZVhR2bw880.jpg" width=300px height=540px>
+            </div>
+            <div class="float-child">
+                <form  name= "data" onsubmit="return validate()"  class="contact-form" action=" " >
+                    <input type="text" class="contact-text" name="name" placeholder="*Your Name: ">
+                    <div id="errName" class="errMsg">Name is Required</div><br/>
+                    <input type="text" class="contact-text" name="email" placeholder="*Email: ">
+                    <div id="errEmail" class="errMsg">Email is Required</div><br/>
+                    <input type="text" class="contact-text" name="phone" placeholder="*Phone Number: ">
+                    <div id="errPhone" class="errMsg">Phone Number is Required</div><br/>
+                    <textarea class="contact-text" placeholder="Message: "></textarea>
+                    <input type="submit" class="contact-btn" value="submit">
+                </form>
+
+            </div>
+            <div class="float-child">
+                <img class="Naruto" src="https://gallery.yopriceville.com/downloadfullsize/send/6366" width=300px height=600px>
+
+            </div>
+                 
+
+        </div>
+    </div>
+        
+
+    <footer>
+            <div id="details">
+                <div id="enroll">
+                    <h1>Anime</h1>
+                    <div id="line"></div>
+                    <p>Get notifications on updates!</p>
+                    <form action id="formformat">
+                        <input type="text" id="text" placeholder="Email address">
+                        <input type="submit" id="submitbutton" value="Submit">
+                    </form>
+                </div>
+            </div>
+    </footer>
+
+
+</body>
