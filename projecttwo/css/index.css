@@ -49,6 +49,20 @@ body{
 
 .other{
     padding-left: 10em;
+    padding-top: 5em; 
+}
+
+.top{
+    padding-left: 7em;
+    font-size: 25px;
+}
+.top h1{
+    font-family: 'Bungee', cursive;
+    margin: 0px;
+}
+.top h5{
+    margin: 0px;
+    padding-top: -4em;
 }
 
 /* Small screens */
