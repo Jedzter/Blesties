@@ -36,10 +36,9 @@ passport.deserializeUser(User.deserializeUser());
 
 // Showing home page 
 app.get("/", function (req, res) { 
-	res.render("home"); 
+	res.render("login"); 
 }); 
 
-// Showing secret page 
 app.get("/index", isLoggedIn, function (req, res) { 
 	res.render("index"); 
 }); 
@@ -100,7 +99,7 @@ app.post("/login", passport.authenticate("local", {
 //Handling user logout 
 app.get("/logout", function (req, res) { 
 	req.logout(); 
-	res.redirect("/"); 
+	res.redirect("/login"); 
 }); 
 
 function isLoggedIn(req, res, next) { 
