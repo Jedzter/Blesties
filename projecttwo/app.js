@@ -14,13 +14,16 @@ mongoose.set('useUnifiedTopology', true);
 mongoose.connect("mongodb+srv://dbUser:dbUserPassword@comp-20.yu1ib.mongodb.net/aniGen?retryWrites=true&w=majority"); 
 
 var app = express(); 
-app.set("view engine", "ejs"); 
+app.set("view engine", "ejs", "html"); 
+app.use('/css', express.static('css'));
+app.use('/images', express.static('images'));
 app.use(bodyParser.urlencoded({ extended: true })); 
 app.use(require("express-session")({ 
 	secret: "Rusty is a dog", 
 	resave: false, 
 	saveUninitialized: false
 })); 
+
 
 app.use(passport.initialize()); 
 app.use(passport.session()); 
@@ -37,14 +40,32 @@ app.get("/", function (req, res) {
 }); 
 
 // Showing secret page 
-app.get("/secret", isLoggedIn, function (req, res) { 
-	res.render("secret"); 
+app.get("/index", isLoggedIn, function (req, res) { 
+	res.render("index"); 
 }); 
 
 // Showing register form 
 app.get("/register", function (req, res) { 
 	res.render("register"); 
 }); 
+
+app.get("/shows", function (req, res) { 
+	res.render("shows"); 
+}); 
+
+
+app.get("/search", function (req, res) { 
+	res.render("search"); 
+});
+
+app.get("/saved", function (req, res) { 
+	res.render("saved"); 
+});
+ 
+app.get("/index", function (req, res) { 
+	res.render("index"); 
+}); 
+
 
 // Handling user signup 
 app.post("/register", function (req, res) { 
@@ -59,7 +80,7 @@ app.post("/register", function (req, res) {
 
 		passport.authenticate("local")( 
 			req, res, function () { 
-			res.render("secret"); 
+			res.render("index"); 
 		}); 
 	}); 
 }); 
@@ -71,7 +92,7 @@ app.get("/login", function (req, res) {
 
 //Handling user login 
 app.post("/login", passport.authenticate("local", { 
-	successRedirect: "/secret", 
+	successRedirect: "/index", 
 	failureRedirect: "/login"
 }), function (req, res) { 
 }); 
