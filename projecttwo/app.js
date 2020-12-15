@@ -7,6 +7,8 @@ var express = require("express"),
 		require("passport-local-mongoose"), 
 	User = require("./routes/User"); 
 
+
+
 mongoose.set('useNewUrlParser', true); 
 mongoose.set('useFindAndModify', false); 
 mongoose.set('useCreateIndex', true); 
@@ -107,7 +109,13 @@ function isLoggedIn(req, res, next) {
 	res.redirect("/login"); 
 } 
 
+/*
 var port = process.env.PORT || 3000; 
 app.listen(port, function () { 
 	console.log("Server Has Started!"); 
 }); 
+*/
+const connection = mongoose.connection;
+connection.once("open", function() {
+	console.log("MongoDB database connection established successfully");
+  });
