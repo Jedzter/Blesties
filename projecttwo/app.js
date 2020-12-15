@@ -115,7 +115,7 @@ connection.once("open", function() {
   console.log("MongoDB database connection established successfully");
 });
 
-var port = process.env.PORT || 3000; 
+var port = 3000; 
 app.listen(port, function () { 
 	console.log("Server Has Started!"); 
 }); 
