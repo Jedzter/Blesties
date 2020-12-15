@@ -1,0 +1,20 @@
+h1 {
+    line-height: 50%;
+}
+
+.login-box{
+    margin-top: 40px;
+}
+
+a{
+    color: #43a391;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 2px 2px #9bc9d1;
+}
+

@@ -47,6 +47,11 @@ body{
     text-shadow: 2px 2px #9bc9d1;
 }
 
+#logout-link a{
+    color: red;
+}
+
+
 .other{
     margin-left: 9.5em;
     margin-right: 5em;
